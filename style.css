@@ -1,0 +1,110 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+}
+.container {
+    width: 1440px;
+    margin: auto;
+    
+}
+.row {
+    width: 700px;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 700px;
+    margin: 100px auto;
+    border: 1px solid #e7e0e0;
+    border-radius: 20px;
+}
+.box-1 {
+    width: 700px;
+    padding: 40px;
+    font-family: 'Karla', sans-serif;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: aliceblue;
+    
+}
+.box-2 {
+    width: 300px;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(50, 165, 159);
+}
+.box-3 {
+    width: 320px;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(94, 190, 186);
+}
+
+ 
+.box-1 h2 {
+    color:  hsl(179, 62%, 43%);
+}
+.box-1 .para {
+    color: hsl(71, 73%, 54%);
+}
+.box-1 .para-1{
+    color: hsl(203, 14%, 66%);
+} 
+.box-2 {
+    color: honeydew;
+}
+
+.box-3 {
+    color: honeydew;
+}
+.btn-1 {
+    margin-top: 30px;
+    text-align: center;
+}
+.btn {
+    padding: 5px 60px;
+    border: honeydew;
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+}
+
+
+
+
+@media only  screen and (min-width: 1275px) {
+    .section {
+        
+        margin: 100px auto;
+        border: 1px solid #e7e0e0;
+        border-radius: 20px;
+    }
+    .box-1 {
+       
+        padding: 40px;
+        font-family: 'Karla', sans-serif;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        background-color: aliceblue;
+        
+    }
+    .box-2 {
+        
+        padding: 20px;
+        font-family: 'Karla', sans-serif;
+        border-bottom-left-radius: 20px;
+        background-color: rgb(50, 165, 159);
+    }
+    .box-3 {
+        
+        padding: 20px;
+        font-family: 'Karla', sans-serif;
+        border-bottom-right-radius: 20px;
+        background-color: rgb(94, 190, 186);
+    }    
+}
